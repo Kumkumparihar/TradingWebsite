@@ -61,7 +61,7 @@ html,body{
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
 i{
-    font-size: 37px;
+    font-size: 36px;
     padding: 0;
 }
 
@@ -90,10 +90,10 @@ i{
 .logo-part .logo-img{
     height:100px;
     width: 100px;
-    border-radius: 5cm;
+    border-radius: 50px;
 }
 .logo-img img{
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
 }
 
@@ -319,6 +319,13 @@ li a{
         flex-direction: column;
         align-items: flex-start;
         gap: 20px;
+    }
+
+    .footer-part2 .logo-part img{
+        border-radius: 50px;
+        /* height: auto;
+        width: auto; */
+
     }
     .footer-part1 .email{
         width:100%;
